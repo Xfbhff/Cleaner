@@ -1,0 +1,15 @@
+..\..\output\timer3.o: ..\..\User\timer3.c
+..\..\output\timer3.o: ..\..\User\timer3.h
+..\..\output\timer3.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\output\timer3.o: ..\..\Libraries\CMSIS\core_cm3.h
+..\..\output\timer3.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\timer3.o: ..\..\Libraries\CMSIS\system_stm32f10x.h
+..\..\output\timer3.o: ..\..\User\stm32f10x_conf.h
+..\..\output\timer3.o: ..\..\Libraries\FWlib\inc\stm32f10x_adc.h
+..\..\output\timer3.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\output\timer3.o: ..\..\Libraries\FWlib\inc\stm32f10x_dma.h
+..\..\output\timer3.o: ..\..\Libraries\FWlib\inc\stm32f10x_gpio.h
+..\..\output\timer3.o: ..\..\Libraries\FWlib\inc\stm32f10x_rcc.h
+..\..\output\timer3.o: ..\..\Libraries\FWlib\inc\stm32f10x_usart.h
+..\..\output\timer3.o: ..\..\Libraries\FWlib\inc\misc.h
+..\..\output\timer3.o: ..\..\Libraries\FWlib\inc\stm32f10x_tim.h

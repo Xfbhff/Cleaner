@@ -1,0 +1,31 @@
+../obj/system_stm32f10x.o: system_stm32f10x.c \
+  D:\Keil_packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h \
+  ..\CORE\core_cm3.h D:\Keil_v5\ARM\ARMCLANG\include\stdint.h \
+  E:\学习资料\综B\追光最终版\CORE\cmsis_compiler.h \
+  E:\学习资料\综B\追光最终版\CORE\cmsis_armclang.h \
+  D:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h \
+  D:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h \
+  D:\Keil_packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h \
+  ..\USER\stm32f10x_conf.h ..\STM32F10x_FWLib\inc\misc.h \
+  ..\STM32F10x_FWLib\inc\stm32f10x_adc.h \
+  ..\STM32F10x_FWLib\inc\stm32f10x_bkp.h \
+  ..\STM32F10x_FWLib\inc\stm32f10x_can.h \
+  ..\STM32F10x_FWLib\inc\stm32f10x_cec.h \
+  ..\STM32F10x_FWLib\inc\stm32f10x_crc.h \
+  ..\STM32F10x_FWLib\inc\stm32f10x_dac.h \
+  ..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h \
+  ..\STM32F10x_FWLib\inc\stm32f10x_dma.h \
+  ..\STM32F10x_FWLib\inc\stm32f10x_exti.h \
+  ..\STM32F10x_FWLib\inc\stm32f10x_flash.h \
+  ..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h \
+  ..\STM32F10x_FWLib\inc\stm32f10x_gpio.h \
+  ..\STM32F10x_FWLib\inc\stm32f10x_i2c.h \
+  ..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h \
+  ..\STM32F10x_FWLib\inc\stm32f10x_pwr.h \
+  ..\STM32F10x_FWLib\inc\stm32f10x_rcc.h \
+  ..\STM32F10x_FWLib\inc\stm32f10x_rtc.h \
+  ..\STM32F10x_FWLib\inc\stm32f10x_sdio.h \
+  ..\STM32F10x_FWLib\inc\stm32f10x_spi.h \
+  ..\STM32F10x_FWLib\inc\stm32f10x_tim.h \
+  ..\STM32F10x_FWLib\inc\stm32f10x_usart.h \
+  ..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h

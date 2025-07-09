@@ -1,0 +1,222 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.39.0.0
+Copyright (C) 2023 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 HUAWEI, 1, LIC=NQQMA-105LK-BS0YX-HBRQK-F38TL-38MCX
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.39.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.21
+Assembler:       Armasm.exe V6.21
+Linker/Locator:  ArmLink.exe V6.21
+Library Manager: ArmAr.exe V6.21
+Hex Converter:   FromElf.exe V6.21
+CPU DLL:         SARMCM3.DLL V5.39.0.0
+Dialog DLL:      DARMSTM.DLL V1.69.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.2.0.0
+Dialog DLL:      TARMSTM.DLL V1.67.1.0
+ 
+<h2>Project:</h2>
+E:\学习资料\综B\追光最终版\USER\A-Test.uvprojx
+Project File Date:  04/25/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.21', folder: 'D:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+compiling system_stm32f10x.c...
+compiling my_stepmotor.c...
+compiling my_led.c...
+compiling delay.c...
+compiling my_adc.c...
+compiling my_key.c...
+compiling stm32f10x_it.c...
+main.c(49): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+   49 |         MyLCD_Show(2,disYplace++,"双<D6><E1><U+05F7><B9><E2>系统");//<CF><D4>示 
+      |                                    ^~~~~~~~        ~~~~~~~~
+main.c(7): note: expanded from macro 'MyLCD_Show'
+    7 | #define MyLCD_Show(m,n,p)     LCD_ShowString(LCD_GetPos_X(F_SIZE,m),LCD_GetPos_Y(F_SIZE,n),p,F_SIZE,false)
+      |                                                                                            ^
+main.c(51): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+   51 |         MyLCD_Show(1,disYplace++,"<B9><E2><D5>詹<CE><CA><FD>: ");//<CF><D4>示   
+      |                                   ^~~~~~~~~~~~ ~~~~~~~~~~~~
+main.c(7): note: expanded from macro 'MyLCD_Show'
+    7 | #define MyLCD_Show(m,n,p)     LCD_ShowString(LCD_GetPos_X(F_SIZE,m),LCD_GetPos_Y(F_SIZE,n),p,F_SIZE,false)
+      |                                                                                            ^
+main.c(52): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+   52 |         MyLCD_Show(4,disYplace++,"<C9><CF>: ");//<CF><D4>示 
+      |                                   ^~~~~~~~
+main.c(7): note: expanded from macro 'MyLCD_Show'
+    7 | #define MyLCD_Show(m,n,p)     LCD_ShowString(LCD_GetPos_X(F_SIZE,m),LCD_GetPos_Y(F_SIZE,n),p,F_SIZE,false)
+      |                                                                                            ^
+main.c(53): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+   53 |         MyLCD_Show(1,disYplace,"<D7><F3>: ");//<CF><D4>示   
+      |                                 ^~~~~~~~
+main.c(7): note: expanded from macro 'MyLCD_Show'
+    7 | #define MyLCD_Show(m,n,p)     LCD_ShowString(LCD_GetPos_X(F_SIZE,m),LCD_GetPos_Y(F_SIZE,n),p,F_SIZE,false)
+      |                                                                                            ^
+main.c(54): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+   54 |         MyLCD_Show(9,disYplace++,"<D3><D2>: ");//<CF><D4>示 
+      |                                   ^~~~~~~~
+main.c(7): note: expanded from macro 'MyLCD_Show'
+    7 | #define MyLCD_Show(m,n,p)     LCD_ShowString(LCD_GetPos_X(F_SIZE,m),LCD_GetPos_Y(F_SIZE,n),p,F_SIZE,false)
+      |                                                                                            ^
+main.c(55): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+   55 |         MyLCD_Show(4,disYplace++,"<CF><C2>: ");//<CF><D4>示 
+      |                                   ^~~~~~~~
+main.c(7): note: expanded from macro 'MyLCD_Show'
+    7 | #define MyLCD_Show(m,n,p)     LCD_ShowString(LCD_GetPos_X(F_SIZE,m),LCD_GetPos_Y(F_SIZE,n),p,F_SIZE,false)
+      |                                                                                            ^
+main.c(56): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+   56 |         MyLCD_Show(1,disYplace++,"<C9><E8><D6><C3>: ");//<CF><D4>示       
+      |                                   ^~~~~~~~~~~~~~~~
+main.c(7): note: expanded from macro 'MyLCD_Show'
+    7 | #define MyLCD_Show(m,n,p)     LCD_ShowString(LCD_GetPos_X(F_SIZE,m),LCD_GetPos_Y(F_SIZE,n),p,F_SIZE,false)
+      |                                                                                            ^
+main.c(131): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+  131 |                         sprintf(dis0,"<C9><CF>:%d  ",lighVla_up);//<B4><F2>印
+      |                                       ^~~~~~~~
+main.c(144): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+  144 |                                 if(setMode == 0)MyLCD_Show(8,disYplace++,"<CA>侄<AF> ");//<CF><D4>示                
+      |                                                                           ^~~~~~~~
+main.c(7): note: expanded from macro 'MyLCD_Show'
+    7 | #define MyLCD_Show(m,n,p)     LCD_ShowString(LCD_GetPos_X(F_SIZE,m),LCD_GetPos_Y(F_SIZE,n),p,F_SIZE,false)
+      |                                                                                            ^
+main.c(146): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+  146 |                                 else if(setMode == 1)MyLCD_Show(8,disYplace++,"<D7>远<AF>  ");//<CF><D4>示          
+      |                                                                                ^~~~ ~~~~
+main.c(7): note: expanded from macro 'MyLCD_Show'
+    7 | #define MyLCD_Show(m,n,p)     LCD_ShowString(LCD_GetPos_X(F_SIZE,m),LCD_GetPos_Y(F_SIZE,n),p,F_SIZE,false)
+      |                                                                                            ^
+10 warnings generated.
+compiling main.c...
+compiling my_lcd_spi_touch.c...
+../HARDWARE/my_lcd_spi_gui.c(2): warning: In file included from...
+../HARDWARE/my_lcd_spi_font.h(22): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+   22 | "<D6><E1>",0x30,0x30,0x30,0x30,0x30,0x30,0xFE,0x30,0x61,0xFE,0x79,0xB6,0xD9,0xB6,0xFF,0xB6,
+      |  ^~~~~~~~
+../HARDWARE/my_lcd_spi_font.h(26): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+   26 | "<B9><E2>",0x01,0x80,0x31,0x8C,0x19,0x8C,0x0D,0x98,0x0D,0xB0,0x01,0x80,0xFF,0xFF,0x06,0x60,
+      |  ^~~~~~~~
+../HARDWARE/my_lcd_spi_font.h(32): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+   32 | "<C9><CF>",0x03,0x00,0x03,0x00,0x03,0x00,0x03,0x00,0x03,0x00,0x03,0x00,0x03,0xFC,0x03,0x00,
+      |  ^~~~~~~~
+../HARDWARE/my_lcd_spi_font.h(34): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+   34 | "<CF><C2>",0x00,0x00,0xFF,0xFF,0x03,0x00,0x03,0x00,0x03,0x00,0x03,0x00,0x03,0x60,0x03,0x30,
+      |  ^~~~~~~~
+../HARDWARE/my_lcd_spi_font.h(36): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+   36 | "<D7><F3>",0x03,0x00,0x03,0x00,0x03,0x00,0xFF,0xFF,0x06,0x00,0x06,0x00,0x06,0x00,0x0C,0x00,
+      |  ^~~~~~~~
+../HARDWARE/my_lcd_spi_font.h(38): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+   38 | "<D3><D2>",0x03,0x00,0x03,0x00,0x03,0x00,0xFF,0xFF,0x06,0x00,0x06,0x00,0x0C,0x00,0x0C,0x00,
+      |  ^~~~~~~~
+../HARDWARE/my_lcd_spi_font.h(40): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+   40 | "<C9><E8>",0x00,0x00,0x31,0xF8,0x19,0x98,0x19,0x98,0x01,0x98,0x03,0x0F,0xFE,0x00,0x1B,0xFC,
+      |  ^~~~~~~~
+../HARDWARE/my_lcd_spi_font.h(42): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+   42 | "<D6><C3>",0x7F,0xFE,0x66,0x66,0x7F,0xFE,0x01,0x80,0x7F,0xFE,0x01,0x80,0x1F,0xF8,0x18,0x18,
+      |  ^~~~~~~~
+../HARDWARE/my_lcd_spi_font.h(44): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+   44 | "<D7><D4>",0x01,0x80,0x03,0x00,0x06,0x00,0x1F,0xF8,0x18,0x18,0x18,0x18,0x18,0x18,0x1F,0xF8,
+      |  ^~~~~~~~
+../HARDWARE/my_lcd_spi_font.h(46): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+   46 | "<B6><AF>",0x00,0x60,0x00,0x60,0x7E,0x60,0x00,0x60,0x01,0xFE,0x00,0x66,0xFF,0x66,0x30,0x66,
+      |  ^~~~~~~~
+../HARDWARE/my_lcd_spi_font.h(48): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+   48 | "<CA><D6>",0x00,0x18,0x00,0xFC,0x3F,0x80,0x01,0x80,0x01,0x80,0x3F,0xFC,0x01,0x80,0x01,0x80,
+      |  ^~~~~~~~
+../HARDWARE/my_lcd_spi_font.h(51): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+   51 | "<D5><D5>",0x00,0x00,0x7F,0xFE,0x66,0x66,0x66,0x66,0x66,0x66,0x66,0xDE,0x7F,0x8C,0x66,0xFE,
+      |  ^~~~~~~~
+../HARDWARE/my_lcd_spi_font.h(53): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+   53 | "<B2><CE>",0x03,0x00,0x06,0x60,0x0C,0x30,0x1F,0xF8,0x03,0x00,0x7F,0xFE,0x0C,0x30,0x18,0xD8,
+      |  ^~~~~~~~
+../HARDWARE/my_lcd_spi_font.h(55): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+   55 | "<CA><FD>",0x0C,0x30,0x6D,0xB0,0x3F,0x30,0x0C,0x3F,0xFF,0xE6,0x3F,0x66,0x6D,0xE6,0xCC,0xF6,
+      |  ^~~~~~~~
+../HARDWARE/my_lcd_spi_font.h(119): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+  119 | "<C6><F7>",0x00,0x00,0x00,0x00,0x00,0x00,0x0F,0xE7,0xF8,0x0E,0x77,0x38,0x0E,0x77,0x38,0x0E,
+      |  ^~~~~~~~
+../HARDWARE/my_lcd_spi_font.h(125): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+  125 | "<C9><E8>",0x00,0x00,0x00,0x00,0x00,0x00,0x0C,0x1F,0xE0,0x06,0x1C,0x70,0x07,0x1C,0x60,0x07,
+      |  ^~~~~~~~
+../HARDWARE/my_lcd_spi_font.h(130): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+  130 | "<D6><C3>",0x00,0x00,0x00,0x00,0x00,0x00,0x0F,0xFF,0xF8,0x0C,0x63,0x18,0x0C,0x63,0x18,0x0C,
+      |  ^~~~~~~~
+../HARDWARE/my_lcd_spi_font.h(146): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+  146 | "<B2><E2>",0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x0C,0x00,0x00,0x18,0x0E,0x30,0x00,0x1C,
+      |  ^~~~~~~~
+../HARDWARE/my_lcd_spi_font.h(154): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+  154 | "<CA><D4>",0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x06,0x00,0x00,0x00,0x07,0xE0,
+      |  ^~~~~~~~
+../HARDWARE/my_lcd_spi_font.h(162): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+  162 | "<CD><EA>",0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x03,0x00,0x00,0x00,0x03,0x80,0x00,
+      |  ^~~~~~~~
+../HARDWARE/my_lcd_spi_font.h(170): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+  170 | "<B3><C9>",0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xC0,0x00,0x00,0x00,0xF3,0x00,
+      |  ^~~~~~~~
+21 warnings generated.
+compiling my_lcd_spi_gui.c...
+compiling my_lcd_spi.c...
+compiling my_uart_msg.c...
+compiling usart.c...
+compiling mygpio.c...
+compiling my_sysdef.c...
+compiling my_systick.c...
+compiling stm32f10x_gpio.c...
+assembling startup_stm32f10x_md.s...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_cec.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_wwdg.c...
+compiling stm32f10x_spi.c...
+linking...
+Program Size: Code=27428 RO-data=2684 RW-data=16 ZI-data=2024  
+FromELF: creating hex file...
+"..\OBJ\A-Test.axf" - 0 Error(s), 31 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM::CMSIS@5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil::STM32F1xx_DFP@2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Target_1
+  D:/Keil_packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  D:/Keil_packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@5.6.0
+Build Time Elapsed:  00:00:50
+</pre>
+</body>
+</html>
